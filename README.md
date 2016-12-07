@@ -6,10 +6,10 @@ my_cookies.py which contains a single has with the cookies
 that are set by the adventofcode web site.  This allows
 the scripts to fetch the input data directly via http.
 
-My file looks like this (but with real values not <hidden>):
+My file looks like this (but with real values not "hidden"):
 
 cookies = {
-    '_ga': '<hidden>',
-    '_gat': '<hidden>',
-    'session': '<hidden>'
+    '_ga': 'hidden',
+    '_gat': 'hidden',
+    'session': 'hidden'
     }
