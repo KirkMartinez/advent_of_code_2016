@@ -1,7 +1,7 @@
 import requests
 import sys
 
-from my_cookies import cookies
+from aoc_cookies import cookies
 
 r = requests.get('http://adventofcode.com/2016/day/3/input', cookies=cookies)
 if r.status_code != 200:

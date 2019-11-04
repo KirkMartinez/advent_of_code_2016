@@ -4,7 +4,7 @@
 import requests
 import sys
 
-from my_cookies import cookies
+from aoc_cookies import cookies
 
 # Data set types
 TEST = 0
