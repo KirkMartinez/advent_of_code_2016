@@ -9,15 +9,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Set up Python 3.7
+    - name: Set up Python 2.7
       uses: actions/setup-python@v1
       with:
-        python-version: 3.7
+        python-version: 2.7
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Lint with flake8
+    - name: Run daily solutions
       run: |
         python 1.py
         python 2.py
