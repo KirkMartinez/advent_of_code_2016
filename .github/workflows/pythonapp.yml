@@ -53,9 +53,3 @@ jobs:
       env:
         AOC2016_GA: ${{ secrets.AOC2016_GA }}
         AOC2016_SESSION: ${{ secrets.AOC2016_SESSION }}
-    - name: Day 8 Solution
-      run: |
-        python 8.py
-      env:
-        AOC2016_GA: ${{ secrets.AOC2016_GA }}
-        AOC2016_SESSION: ${{ secrets.AOC2016_SESSION }}
