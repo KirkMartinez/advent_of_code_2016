@@ -27,3 +27,6 @@ jobs:
         python 6.py
         python 7.py
         python 8.py
+      env:
+        AOC2016_GA: ${{ secrets.AOC2016_GA }}
+        AOC2016_SESSION: ${{ secrets.AOC2016_SESSION }}
