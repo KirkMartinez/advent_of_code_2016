@@ -10,3 +10,5 @@ AOC2016_SESSION
 
 You can see them by looking at the web headers for 
 any AOC web page request (when you are signed in).
+I have them set as secrets on github to automate
+running them there.
